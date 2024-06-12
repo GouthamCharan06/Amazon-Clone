@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 120px;
+}
+.nav-address{
+    width:90px;
+    height:50px;
+    margin-top: 15px;
+    margin-left:50px;
+   justify-content: center;
+    align-items: center;
+    
+}
+.address-icon{
+    display:flex;
+    font-size: 1.25rem;
+  
+}
+.address-first{
+    font-size: 0.85rem;
+    font-weight: lighter;
+    color: #cccccc;
+    margin-left: 18px;
+}
+.address-second{
+ font-weight: bold;
+ margin-left: 5px;
+}
+.nav-search{
+   margin-top:5px;
+   margin-left: 80px;
+   width:600px;
+   height:60px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ border:none;
+}
+#nav-select{
+    margin-top:5px;
+height: 45.2px;
+width:50px;
+border-top-left-radius: 10%;
+border-bottom-left-radius: 10%;
+background-color: #f3f3f3;
+border:none;
+text-align: center;
+}
+#nav-placeholder{
+    margin-top:5px;
+ height: 43px;
+ width:100%;
+ font-size: medium;
+ border:none;
+}
+#nav-button{
+margin-top:5px;
+height: 45px;
+width:45px;
+background-color: rgb(229, 164, 24);
+border-top-right-radius: 10%;
+border-bottom-right-radius: 10%;
+border:none;
+}
+#searchbutton{
+    margin-top:4px;
+    height:15px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* .nav-search:hover{
+    border:2px solid orange;
+} */
+.nav-login{
+    height:50px;
+    width:130px;
+    color:white;
+    margin-top:15px;
+    margin-left:80px;
+}
+.first-line{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.second-line{
+    font-size: 14px;
+    font-weight: bold;
+}
+.returns{
+    margin: 15px 0px 0px 80px;
+}
+.cart i{
+    font-size: 35px;
+}
+.cart{
+    height:50px;
+    width:85px;
+    display:flex;
+    margin: 15px 0px 0px 80px;
+}
+
+.third-line{
+    margin-top:15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-content{
+    height:40px;
+    width:100%;
+    background-color:  #232f3e;
+    display:flex;
+    color:white;
+    
+    align-items: center;
+    
+}
+.nav-all{
+    width:60px;
+    height:40px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.nav-all-features{
+    height:40px;
+    width:80%;
+    background-color: #232f3e;
+    display:flex;
+    
+    align-items: center;
+    
+}
+.nav-deals{
+    height:40px;
+    width:200px;
+    background-color: #232f3e;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+}
+#content{
+    margin-left: 15px;
+}
+#nav-content-info{
+    margin-left: 10px;
+}
+.main{
+    width: 100%;
+    background-color: #0f1111;
+}
+.hero-section{
+    height:400px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+}
+.shop-categories{
+    background-color: #798696;
+   display:flex;
+   display: flex;
+   
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.shop-categories a{
+    text-decoration: none;
+}
+.box{
+    width:300px;
+    height:400px;
+    margin-top:20px;  
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+    background-color: #ffffff;
+}
+.box-image{
+   margin-left: 20px;
+   margin-top:10px;
+}
+
+#text{
+   margin-left:20px;
+
+}
+#shop-category-text{
+    margin-top:5px;
+    margin-left:20px;
+    font-size: 21px;
+}
+.foot-panel1{
+    
+    height:50px;
+    background-color: #282829;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.foot-panel1 p{
+    font-size: 20px;
+    text-align: center;
+  
+}
+.foot-1{
+  color:white;
+}
+.foot-panel2{
+    color:white;
+    background-color: #1f2020;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.foot-panel2 h3{
+    margin-top: 20px;
+    margin-left: 40px;
+    color:white;
+}
+.foot-panel2 a{
+    color:white;
+   text-decoration: none;
+}
+.licensing{
+    height:100px;
+    background-color: #1f2020;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
